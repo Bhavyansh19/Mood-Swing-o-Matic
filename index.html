@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood-Based Playlist Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pick Your Mood</h1>
+        <div class="select-wrapper">
+            <select id="mood-select">
+                <option value="">-- Select your mood --</option>
+                <option value="happy">Feeling Fabulous ✨</option>
+                <option value="sad">A Bit Down 😞</option>
+                <option value="energetic">Full of Energy ⚡</option>
+                <option value="chill">In Party Mode 🎉</option>
+                <option value="feeling-potato">Just a Potato 🥔</option>
+            </select>
+        </div>
+        <button class="playlist-button" onclick="recommendPlaylist()">Get Playlist</button>
+        
+        <div id="playlist-result">   
+        </div>
+    </div>
+    <div class="info-box">
+        <p>Hey there! I'm Bhavyansh 😎. Most of these playlists are my personal jams. Let’s vibe together! 🎶</p>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
