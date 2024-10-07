@@ -19,7 +19,7 @@ function recommendPlaylist() {
             break;
         case "chill":
             playlist = "https://open.spotify.com/playlist/36G33rFXvEANJMS2SjP56j?si=cb59b6a01f6447de"; // Chill Playlist
-            playlistResult.innerHTML = `<p>In Party Mode 🎉? Here's a <a href="${playlist}" target="_blank">Part Playlist</a> for you 😌</p>`;
+            playlistResult.innerHTML = `<p>In Party Mode 🎉? Here's a <a href="${playlist}" target="_blank">Party Playlist</a> for you 😌</p>`;
             break;
         case "feeling-potato":
             playlist = "https://open.spotify.com/playlist/118LDTdoq4Ii7w9gSuTgik?si=09bb35ed906c4a67"; // Potato Feeling Playlist
